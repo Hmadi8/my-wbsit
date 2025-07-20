@@ -10,6 +10,7 @@
 
           .info h2{
             font-size:16px;
+            color: white;
         }
         header{
             font-size: larger;
@@ -19,32 +20,21 @@
          body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(#0a1e66, transparent);
+    background: linear-gradient(blue,rgb(61, 8, 206),rgb(8, 201, 159));
   }
-  a:hover{
-    background: linear-gradient(orange,red);
-    transform:translate(3px)
-  }
-    a{
-      position: absolute;
-      top: 10px;
-      right: 3px;
-      
-      text-decoration: none;
-    color: #0a1e66;
-    border: #0a1e66 solid 1px;
-    border-radius: 20px;
-    padding: 5px;
-    }
         header{
-
-          
+background: linear-gradient(blue,rgb(61, 8, 206),rgb(8, 201, 159));
             background-color:white;
             padding-top: 1rem;
             text-align: center;
             border-radius: 0 0 10px 10px;
         }
         .contaner{
+          color: white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
             margin: 0 ;
             text-align: center;
 
@@ -55,9 +45,10 @@
         
 
         img{
+
          border-radius: 20px;
     margin: 10px;
-    box-shadow: 0 4px 2px 1px rgb(0, 0, 1);
+    box-shadow: 0 0 7px 7px rgb(0, 0, 1);
     padding: 10px;
     transition: transform 0.3s;
         }
@@ -66,9 +57,29 @@
     margin:15px auto;
     padding: 4px 40px;
     background: orange;
+}
+
+
+
+     a:hover{
+      color: white;
+    background: linear-gradient(orange,red);
+    transform:translate(3px)
     
-   }
-   footer{
+  }
+  a{
+    border: 1px white solid ;
+    border-radius: 10px;
+    left: 20px;
+    padding:10px 5px;
+    color:orange;
+    text-decoration: none;
+
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-evenly;
     padding: 10px;
     border-radius: 10px 10px 0 0;
     background: linear-gradient(rgb(15, 14, 14),blue);
